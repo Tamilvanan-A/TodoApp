@@ -23,6 +23,6 @@ public class TasksRepositoryTests {
         tasksRepository.save(task);
         TaskEntity savedTask=tasksRepository.findAll().get(0);
         assertEquals("test task",tasksRepository.findAll().get(0).name);
-        System.out.println(savedTask    );
+        System.out.println(savedTask);
     }
 }

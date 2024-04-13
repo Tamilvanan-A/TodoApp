@@ -3,16 +3,14 @@ package com.example.Springboot.DB.tasks;
 import com.example.Springboot.DB.common.BaseEntity;
 import com.example.Springboot.DB.note.NotesEntity;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.Date;
 import java.util.List;
 
 @Entity(name="tasks")
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
